@@ -47,5 +47,10 @@ void quick_sort_hoare(int *array, size_t size);
 /* Prototypes for helper functions */
 void swap(int *a, int *b);
 void heapify(int *array, int end, int start, size_t size);
+
+
+void swapint(int *l, int *r);
+void b_sort(int *array, int low, int count, int dir, size_t size);
+void b_merge(int *array, int low, int count, int dir, size_t size);
 #endif
 
